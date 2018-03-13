@@ -1,0 +1,28 @@
+/**
+ * Angelica Coria
+ * PP 6.1
+ */
+public class gradeRange
+{
+    public static void main (String [] args)
+    {
+        Grade A = new Grade ("A\t", 95);
+        Grade A_ = new Grade ("A\t", 90);
+        Grade bPlus = new Grade("B+\t", 87);
+        Grade B = new Grade ("B\t", 83);
+        Grade B_= new Grade ("B-\t", 80);
+        Grade cPlus = new Grade ("C+\t", 77);
+        Grade C = new Grade ("C\t", 73);
+        Grade C_ = new Grade ("C-\t", 70);
+        Grade dPlus = new Grade ("D+\t", 67);
+        Grade D = new Grade ("D\t", 63);
+        Grade D_ = new Grade ("D-\t", 60);
+        Grade F = new Grade ("F\t", 0);
+        
+        Grade[] gradeArray = {A, A_,bPlus,B,B_,cPlus,C,C_,dPlus,D,D_,F};
+       
+        for(Grade someGrade: gradeArray)
+            System.out.println(someGrade);
+        }// End main method
+    }// End class Range
+    
